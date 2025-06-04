@@ -17,7 +17,6 @@ def main():
 
     while True:
         try:
-            print(f"Hello worldddd222222222")
             # Fetch unpulled data from API
             response = requests.get(f"{api_base_url}/unpulled")
             response.raise_for_status()

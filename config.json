@@ -1,13 +1,5 @@
 {
-    "api_url":"",
-    "target_folder":"",
-    "interval_seconds":30,
-    "wait_seconds":10,
-    "database_name":"",
-    "host":"",
-    "IPv4":"",
-    "user":"",
-    "password":"",
-    "rawSQL":""
-
+    "api_url":"https://cmghbomgenerator-gme5d7g4b0d8ewb2.uksouth-01.azurewebsites.net/wheeldata",
+    "target_folder":"C:\\Users\\aktan\\Desktop\\OguzhanAKTAN\\CMGH23006\\Back-end\\BOM_api_agent_v.1.0.0\\",
+    "interval_seconds":30
 }

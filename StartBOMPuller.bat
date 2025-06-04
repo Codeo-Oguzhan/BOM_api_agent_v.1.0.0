@@ -145,7 +145,7 @@ start /b python BOM_puller.py
 set PYTHON_PID=%ERRORLEVEL%
 
 REM Wait and check for updates every 5 minutes (300 seconds)
-set /a CHECK_INTERVAL=300
+set /a CHECK_INTERVAL=60
 echo [%date% %time%] Auto-update check will run every %CHECK_INTERVAL% seconds
 
 :UPDATE_CHECK_LOOP

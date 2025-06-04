@@ -17,6 +17,7 @@ def main():
 
     while True:
         try:
+            print(f"Auto update check is running...")
             # Fetch unpulled data from API
             response = requests.get(f"{api_base_url}/unpulled")
             response.raise_for_status()
